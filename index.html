@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    
+  </head>
+  <body>  
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Niranjana</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse d-flex flex-row justify-content-end" id="navbarNav">
+            <div class="navbar-nav ">
+                <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                <a class="nav-link" href="#about">About</a>
+                <a class="nav-link" href="#skills">Skills</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="bg-container">
+        <section id="home">
+          <div class=" front-page d-flex flex-row justify-content-center">
+            <div class="text-white">
+                <div class="front-page-text ">
+                    <h1 class="front-page-hd1">Hello! I'm Niranjana</h1>
+                    <h2 class="front-page-hd2">Frontend Developer</h2>
+                    <p class="front-page-para">I build responsive and modern websites using HTML and CSS.</p>
+                    <div class="front-button d-flex flex-row justify-content-center">
+                      <a href="resume/Niranjana_Resume.pdf" class="button-box" download>
+                        Download Resume
+                    </a>  
+                    </div>
+                </div>
+            </div>
+            <div>
+              <img class="profile-image" src="images/profile.jpeg" alt="Niranjana">
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section id="about">       
+        <div class="about">
+          <h2>About Me</h2>
+          <p>
+              I am an engineering student passionate about web development.
+              I enjoy creating responsive websites and continuously improving
+              my programming skills through hands-on projects.
+          </p>
+        </div>
+    </section>
+    
+    <section id="skills">
+      <h2 class="skill-hd">Skills</h2>
+        <div class="skill-container">
+            <div class="skill-card">
+                <h3 class="skill-type">Frontend</h3>
+                <p class="my-skill">HTML5, CSS3</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-type">Programming</h3>
+                <p class="my-skill">C, Python, SQL</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-type">Tools</h3>
+                <p class="my-skill">Git, GitHub, VS Code, Bootstrap</p>
+            </div>
+            <div class="skill-card">
+                <h3 class="skill-type">Soft Skills</h3>
+                <p class="my-skill">Problem Solving, Teamwork, Communication</p>
+            </div> 
+        </div> 
+    </section>
+    
+    <section id="projects">
+        <h2 class="pro-hd1">Projects</h2>
+            <div class="d-flex flex-row justify-content-center">
+              <div class="card">
+                <img src="images/portfolio.png" alt="Personal Portfolio">
+                <h3 class="pro-hd2">Personal Portfolio</h3>            
+                <p class="pro-para">
+                    A responsive portfolio website built using HTML and CSS.
+                </p>  
+                <a href="https://github.com/Niranjana-dev148/portfolio" class="project-btn" target="_blank">
+                  View Project
+              </a>          
+                          
+            </div>      
+              <div class="card">
+                <img src="images/yogaPage.png" alt="Responsive Web Pages">
+                <h3 class="pro-hd2">Responsive Web Pages</h3>
+                <p class="pro-para">A collection of responsive web pages built using HTML and CSS.</p>
+                <a href="https://github.com/Niranjana-dev148/html-css-projects" class="project-btn" target="_blank">
+                  View Project
+                </a> 
+              </div>
+            </div>
+    </section>
+    
+    <section id="contact"> 
+        <h2 class="con-hd">Contact</h2>
+        <p class="con-sub">
+          Have a project in mind? Feel free to contact me.
+        </p>
+            <form class="contact-form">
+              <div class="d-flex flex-column justify-content-center align-items-center">
+              <input class="con-form" type="text" placeholder="Your Name" required>
+              <input class="con-form" type="email" placeholder="Your Email" required>
+              <textarea class="con-mess" placeholder="Your Message" rows="5" required></textarea>
+              <button class="con-button" type="submit">Send Message</button>
+            </div>
+            </form> 
+    </section> 
+    <footer class="footer">
+      © 2026 Niranjana. All Rights Reserved.
+  </footer>
+  </body>
+</html>
